@@ -1,21 +1,22 @@
 const initialState = {
-  loading: false,
   posts: [],
-  error: "",
+  loading: false,
+  error: null,
 };
 
 const postsReducer = (state = initialState, action) => {
-   switch (action.type) {
+  switch (action.type) {
     case "FETCH_POSTS_REQUEST":
       return {
         ...state,
         loading: true,
+        error: "",
       };
     case "FETCH_POSTS_SUCCESS":
       return {
         loading: false,
         posts: action.payload,
-        error: '',
+        error: "",
       };
     case "FETCH_POSTS_FAILURE":
       return {
@@ -25,7 +26,7 @@ const postsReducer = (state = initialState, action) => {
       };
     default:
       return state;
-    }
+  }
 };
 
 export default postsReducer;
