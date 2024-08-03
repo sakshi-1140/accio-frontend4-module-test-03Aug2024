@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/accio-frontend4-module-test-03Aug2024/static/css/main.041bec3c.css",
+    "main.js": "/accio-frontend4-module-test-03Aug2024/static/js/main.f2d5256d.js",
+    "index.html": "/accio-frontend4-module-test-03Aug2024/index.html",
+    "main.041bec3c.css.map": "/accio-frontend4-module-test-03Aug2024/static/css/main.041bec3c.css.map",
+    "main.f2d5256d.js.map": "/accio-frontend4-module-test-03Aug2024/static/js/main.f2d5256d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041bec3c.css",
+    "static/js/main.f2d5256d.js"
+  ]
+}
